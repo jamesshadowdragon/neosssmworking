@@ -4,6 +4,10 @@
   "installCommand": "npm install",
   "devCommand": "npm run dev -- --host 0.0.0.0 --port 3000",
   "outputDirectory": "dist",
+  "env": {
+    "APP_URL": "https://neossmm.vercel.app",
+    "NODE_ENV": "production"
+  },
   "rewrites": [
     {
       "source": "/(.*)",
